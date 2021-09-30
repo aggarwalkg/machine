@@ -1,0 +1,19 @@
+.listCard {
+  width: 20%;
+  box-shadow: 0px 0px 5px lightgrey;
+  margin: 10px auto;
+}
+.myList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listCard > h1 {
+  text-align: center;
+  color: #554f4d;
+}
+.myList > h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ff4d00;
+}

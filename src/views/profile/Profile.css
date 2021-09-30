@@ -1,0 +1,92 @@
+.cardProfile {
+  margin: 100px 20px 0px 20px;
+  background-color: #414257;
+}
+.myProfilePage .screen {
+  height: 128vh;
+}
+.myProfile {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px auto;
+}
+.myProfileDiv {
+  width: 95%;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.myProfileTopBtn {
+  text-align: right;
+  position: absolute;
+  top: 12%;
+  right: 32px;
+}
+.myProfileTopBtn button {
+  background-color: #fff !important;
+  border-color: #414257 !important;
+  color: #393939 !important;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.ProfileInfoForm {
+  width: 100%;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+}
+.ProfileInfoForm .head {
+  text-align: center;
+}
+.customerInfoDiv2 {
+  margin-bottom: 25px;
+}
+.customerInfoDiv2 > .signInFormDiv {
+  width: 800px !important;
+  background-color: transparent;
+}
+.formInput label {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem !important;
+}
+.formInput input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #666;
+  padding: 5px 10px;
+}
+.formInput input::placeholder {
+  font-size: 0.8rem;
+}
+.rowFormInput {
+  display: flex;
+  width: 100%;
+}
+.rowInput {
+  flex: 48%;
+}
+.additionalInfo2 {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+.additionalInfo2 h4 {
+  padding: 0px 15px !important;
+}
+.additionalInfo2 textarea {
+  resize: none;
+}
+@media (max-width: 991px) {
+  .rowFormInput {
+    flex-direction: column;
+  }
+}

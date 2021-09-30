@@ -1,0 +1,90 @@
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 140px;
+}
+.signInFormDiv {
+  position: relative;
+  width: 720px;
+  max-width: 80%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px lightgrey;
+}
+.rememberMeOption label {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.signInButton {
+  margin-top: 20px;
+}
+.footerlogin {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.signInForm {
+  position: relative;
+  display: flex;
+
+  margin: 40px auto !important;
+  width: 100% !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signInForm .MuiOutlinedInput-input {
+  width: 100%;
+}
+
+.randomName {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.signInHeading {
+  font-size: 24px;
+  color: #414257;
+  font-weight: bolder;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.registerButton {
+  margin-top: 20px;
+}
+
+.signInmain .signInEmail,
+.signInmain .signInPassword {
+  margin-bottom: 35px;
+}
+
+.signInForm .MuiOutlinedInput-input {
+  padding: 15px 10px;
+}
+.signInEmail,
+.signInPassword {
+  position: relative;
+  width: calc(90% - 50px);
+  height: 59px;
+}
+
+.signInForm .PrivateNotchedOutline-root-2 {
+  top: -5px;
+}
+.signInForm .MuiInputLabel-formControl {
+  top: -5px;
+}
+.signInPassword .eyeicon {
+  position: absolute;
+  right: 15px;
+  bottom: 19px;
+}
